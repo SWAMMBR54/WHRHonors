@@ -1,0 +1,107 @@
+/*
+    Author: Henry Rudisill
+    File: styles.css
+    Date: 10/15/2023
+*/
+
+/* CSS Reset */
+body, #container, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Style Rules */
+
+/* Header Style Rules */
+
+/* Main Style Rules */
+main a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.indline1 {
+    display: inline-block;
+}
+
+.futlist {
+    padding-top: 2%
+}
+/* Style Rules for Footer */
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.whremail:hover {
+    font-weight: bold;
+}
+
+/* Style Rules for Social Icons */
+.facebook {
+    height: 100px;
+    margin: 25px
+}
+
+.instagram {
+    height: 100px;
+    margin: 25px;
+}
+
+.persimg {
+    display: inline-block;
+    max-width: 275px;
+    max-height: 275px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #0dcaf0;
+}
+
+.centfig {
+    display: inline-block;
+    margin-left: 25%
+
+}
+figcaption {
+    margin-left: 23%
+}
+
+/*Style Rules for Mobile Viewport */
+@media screen and (max-width: 992px) {
+    .pc {
+        display: hidden;
+    }
+
+    .mainstylehead {
+        font-size: 2.5em;
+    }
+
+    .mainstylebody {
+        font-size: 1.5em;
+    }
+
+
+}
+
+@media screen and (min-width: 993px){
+    .mobile {
+        display: hidden;
+    }
+
+    .mainstylehead {
+        font-size: 3.5em;
+    }
+
+    .mainstylebody {
+        font-size: 2em;
+    }
+
+    .navbarsize {
+        font-size: 1.25em;
+    }
+
+    .mobilepic {
+        margin-left: 10%;
+    }
+}
