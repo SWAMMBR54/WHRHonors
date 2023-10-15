@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+title: This is a placeholder file. try adding /web to the url
 ---
 
